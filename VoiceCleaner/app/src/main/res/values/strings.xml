@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">وائس کلینر</string>
+    <string name="tagline">ایک کلک میں اسٹوڈیو جیسی آواز</string>
+
+    <string name="btn_pick">آڈیو منتخب کریں</string>
+    <string name="btn_pick_desc">آڈیو منتخب کریں۔ بٹن۔ اپنے موبائل سے آڈیو فائل چننے کے لیے دبائیں</string>
+
+    <string name="btn_clean">آڈیو صاف کریں</string>
+    <string name="btn_clean_desc">آڈیو صاف کریں۔ بٹن۔ ایک کلک میں شور، گونج اور ہِس ختم کر کے آواز کو طاقتور بنانے کے لیے دبائیں</string>
+
+    <string name="btn_save">محفوظ کریں</string>
+    <string name="btn_save_desc">محفوظ کریں۔ بٹن۔ صاف شدہ آڈیو کو MP3 میں گیلری میں محفوظ کرنے کے لیے دبائیں</string>
+
+    <string name="btn_play_before">پہلے والی آڈیو سنیں</string>
+    <string name="btn_play_before_desc">پہلے والی آڈیو سنیں۔ بٹن۔ صفائی سے پہلے کی اصل آڈیو چلانے کے لیے دبائیں</string>
+
+    <string name="btn_play_after">صاف شدہ آڈیو سنیں</string>
+    <string name="btn_play_after_desc">صاف شدہ آڈیو سنیں۔ بٹن۔ صفائی کے بعد کی آڈیو چلانے کے لیے دبائیں</string>
+
+    <string name="btn_stop">آواز بند کریں</string>
+    <string name="btn_stop_desc">آواز بند کریں۔ بٹن۔ چلتی ہوئی آڈیو روکنے کے لیے دبائیں</string>
+
+    <string name="status_ready">خوش آمدید۔ پہلے آڈیو منتخب کریں، پھر آڈیو صاف کریں، پھر محفوظ کریں۔</string>
+</resources>

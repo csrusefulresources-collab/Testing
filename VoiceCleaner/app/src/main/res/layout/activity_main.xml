@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F2F6F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#0B3D2E"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="2dp"
+            android:focusable="true"
+            android:contentDescription="وائس کلینر۔ ایک کلک میں اسٹوڈیو جیسی آواز" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status_ready"
+            android:textSize="20sp"
+            android:textColor="#123A2C"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="4dp"
+            android:background="#FFFFFF"
+            android:accessibilityLiveRegion="assertive"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/btnPick"
+            style="@style/BigButton"
+            android:text="@string/btn_pick"
+            android:contentDescription="@string/btn_pick_desc" />
+
+        <Button
+            android:id="@+id/btnClean"
+            style="@style/BigButton"
+            android:text="@string/btn_clean"
+            android:enabled="false"
+            android:contentDescription="@string/btn_clean_desc" />
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/BigButton"
+            android:text="@string/btn_save"
+            android:enabled="false"
+            android:contentDescription="@string/btn_save_desc" />
+
+        <Button
+            android:id="@+id/btnPlayBefore"
+            style="@style/BigButtonAlt"
+            android:text="@string/btn_play_before"
+            android:visibility="gone"
+            android:contentDescription="@string/btn_play_before_desc" />
+
+        <Button
+            android:id="@+id/btnPlayAfter"
+            style="@style/BigButtonAlt"
+            android:text="@string/btn_play_after"
+            android:visibility="gone"
+            android:contentDescription="@string/btn_play_after_desc" />
+
+        <Button
+            android:id="@+id/btnStop"
+            style="@style/BigButtonAlt"
+            android:text="@string/btn_stop"
+            android:visibility="gone"
+            android:contentDescription="@string/btn_stop_desc" />
+
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نعت خوان، قاری اور بیان کرنے والوں کے لیے"
+            android:textSize="16sp"
+            android:textColor="#4A6A5E"
+            android:gravity="center"
+            android:paddingTop="18dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+</ScrollView>
