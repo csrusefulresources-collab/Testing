@@ -1,0 +1,53 @@
+name: advance_audio_editor
+description: >-
+  Advance Audio Editor - a 100 percent TalkBack accessible offline Naat and
+  Tilawat recording studio for blind users. Developer: Hafiz Qasim.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Recording: 48 kHz stereo WAV, echoCancel and autoGain set to false,
+  # built-in real-time noise suppressor used as the noise gate.
+  record: ^5.1.2
+
+  # Playback.
+  just_audio: ^0.9.40
+
+  # English voice prompts for every action.
+  flutter_tts: ^4.2.0
+
+  # Import from Internal Storage, SD Card, WhatsApp, Downloads, Google Drive,
+  # File Manager (system file picker uses SAF, no broad storage permission).
+  file_picker: ^8.1.6
+
+  # Microphone and notification permission handling.
+  permission_handler: ^11.3.1
+
+  # Persist settings and logs history.
+  shared_preferences: ^2.3.2
+
+  # App folders for recordings.
+  path_provider: ^2.1.4
+
+  # Share App and Report Bug.
+  share_plus: ^10.0.0
+  url_launcher: ^6.3.0
+
+  # Maintained fork of FFmpegKit (original retired January 2025).
+  # Used for: import conversion of every format, 8 voices chorus,
+  # merge/concat, split at silence, smart silence remover, and all exports.
+  ffmpeg_kit_flutter_new: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
